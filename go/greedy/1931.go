@@ -5,7 +5,7 @@ https://www.acmicpc.net/problem/1931
 Note
 use bufio, scanner. it is faster.
 */
-package main
+package greedy
 
 import (
 	"bufio"
@@ -15,7 +15,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func P1931() {
 	var n int
 	fmt.Scan(&n)
 
@@ -29,7 +29,7 @@ func main() {
 		arr[i] = ab
 	}
 
-	solution(n, arr)
+	sol(n, arr)
 }
 
 func parseLine(line string) []int {
@@ -92,7 +92,7 @@ func isSpace(r rune) bool {
 	return r == ' ' || r == '\t' || r == '\n' || r == '\r'
 }
 
-func solution(n int, arr [][]int) {
+func sol(n int, arr [][]int) {
 	ans := 1
 	sort.Slice(arr, func(i, j int) bool {
 		return arr[i][1] < arr[j][1] || (arr[i][1] == arr[j][1] && arr[i][0] < arr[j][0])

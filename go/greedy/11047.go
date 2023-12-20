@@ -2,7 +2,7 @@
 동전 0
 https://www.acmicpc.net/problem/11047
 */
-package main
+package greedy
 
 import (
 	"bufio"
@@ -12,7 +12,7 @@ import (
 	"strings"
 )
 
-func main() {
+func P11047() {
 	var k []int
 	reader := bufio.NewReader(os.Stdin)
 

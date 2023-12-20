@@ -1,3 +1,6 @@
-*.exe
 bin/
+
+*.exe
+*.o
+
 .DS_Store
