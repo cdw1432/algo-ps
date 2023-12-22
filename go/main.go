@@ -1,7 +1,9 @@
 package main
 
-import "ps/greedy"
+import (
+	shortestpath "ps/bkjn/shortest-path"
+)
 
 func main() {
-	greedy.P1541()
+	shortestpath.P1753()
 }
