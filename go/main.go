@@ -1,9 +1,10 @@
 package main
 
 import (
-	shortestpath "ps/bkjn/shortest-path"
+	"fmt"
+	arr_string "ps/leetcode/arr-string"
 )
 
 func main() {
-	shortestpath.P1753()
+	fmt.Print(arr_string.P80_O([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 }
