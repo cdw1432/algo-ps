@@ -1,9 +1,9 @@
 package main
 
 import (
-	dfsbfs "ps/bkjn/dfs-bfs"
+	"ps/bkjn/dp"
 )
 
 func main() {
-	dfsbfs.P1260()
+	dp.P1003()
 }
