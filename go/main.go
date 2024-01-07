@@ -1,9 +1,9 @@
 package main
 
 import (
-	"ps/bkjn/dp"
+	bruteforce "ps/prgmrs/brute-force"
 )
 
 func main() {
-	dp.P1003()
+	bruteforce.P42842_test()
 }

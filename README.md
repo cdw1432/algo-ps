@@ -13,3 +13,8 @@ $ node ./[dir]/[filename].js
 ```
 $ python ./[filename].py
 ```
+
+- sort
+- heap
+- brute force
+- dfs/bfs
