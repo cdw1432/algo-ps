@@ -18,3 +18,4 @@ $ python ./[filename].py
 - heap
 - brute force
 - dfs/bfs
+- greedy

@@ -1,9 +1,9 @@
 package main
 
 import (
-	bruteforce "ps/prgmrs/brute-force"
+	"ps/prgmrs/greedy"
 )
 
 func main() {
-	bruteforce.P42842_test()
+	greedy.P42883("654321", 5)
 }
