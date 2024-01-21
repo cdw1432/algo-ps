@@ -19,3 +19,6 @@ $ python ./[filename].py
 - brute force
 - dfs/bfs
 - greedy
+- dp
+- bin. search
+- graph
